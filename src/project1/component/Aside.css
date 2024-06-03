@@ -1,0 +1,11 @@
+aside {
+  padding: 50px;
+  background-color: #c24332;
+  flex: 1;
+}
+
+h2,
+h3,
+p {
+  padding: 20px;
+}
