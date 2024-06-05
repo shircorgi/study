@@ -1,0 +1,33 @@
+.Grid {
+  display: grid;
+
+  grid-template-areas:
+    "img1 img1 img1 img2 img4 "
+    "img3 img3 img3 img3 img4 "
+    "img3 img3 img3 img3 img4 "
+    "img3 img3 img3 img3 img4 ";
+  grid-gap: 18px;
+  height: 100vh;
+}
+
+.Grid > div {
+  text-align: center;
+  font-size: 20px;
+}
+
+.item1 {
+  background-color: #fb938f;
+  grid-area: img1;
+}
+.item2 {
+  background-color: #f2cac8;
+  grid-area: img2;
+}
+.item3 {
+  background-color: #c36b85;
+  grid-area: img3;
+}
+.item4 {
+  background-color: #fdbb75;
+  grid-area: img4;
+}

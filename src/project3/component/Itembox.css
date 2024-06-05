@@ -1,0 +1,15 @@
+.Itembox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 65vh;
+  padding: 20px;
+}
+
+.itemcard {
+  border: 1px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  color: #333;
+}

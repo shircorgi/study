@@ -1,0 +1,6 @@
+.Aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ef233c;
+}
