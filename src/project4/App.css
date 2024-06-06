@@ -1,0 +1,56 @@
+html {
+  height: 100%;
+}
+
+body {
+  padding: 20px;
+  background: rgb(185, 195, 255);
+  background: linear-gradient(
+    150deg,
+    rgba(185, 195, 255, 1) 17%,
+    rgba(20, 193, 224, 1) 63%,
+    rgba(0, 159, 213, 1) 100%
+  );
+}
+
+.App {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.App > section {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 28px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+h1,
+h4 {
+  text-align: center;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+button {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: black;
+  color: #fff;
+  margin: 0 2px 0 2px;
+  cursor: pointer;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #fff;
+  transition: all 0.2s;
+  color: black;
+  font-weight: bold;
+}
