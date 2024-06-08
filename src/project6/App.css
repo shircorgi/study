@@ -1,0 +1,26 @@
+html {
+  background-color: thistle;
+}
+
+body {
+  margin: 0px;
+}
+
+.Hello {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+}
+
+input,
+button {
+  margin: 10px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 30px;
+}
