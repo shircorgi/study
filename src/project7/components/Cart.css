@@ -1,0 +1,20 @@
+.Cart {
+  max-width: 500px;
+  border: 1px solid #9966cc;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+h3,
+p {
+  color: #fff;
+}
