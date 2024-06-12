@@ -4,10 +4,10 @@ import "./index.css";
 //import App from "./project1/App";
 //import App from "./project2/App";
 //import App from "./project3/App";
-//import App from "./project4/App";
+import App from "./project4/App";
 //import App from "./project5/App";
 // import App from "./project6/App";
-import App from "./project7/App";
+//import App from "./project7/App";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
